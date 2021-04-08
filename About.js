@@ -6,9 +6,7 @@ const About = () => {
 	return (
 		<Container fluid="md">
 			<Card style={{}} className="aboutCard">
-				<Col className="yt-video">
-					<ReactPlayer url="https://www.youtube.com/watch?v=hUHJmq0Vmho&feature=youtu.be" />
-				</Col>
+				
 				<Col>
 					<Card.Body>
 						<Card.Title>Sumry</Card.Title>
@@ -47,40 +45,18 @@ const About = () => {
 						<Row>
 							<Card style={{ width: '18rem' }} className="teamCard">
 								<Card.Body>
-									<Card.Title>Chirag Gupta</Card.Title>
+									<Card.Title>Harish Meena</Card.Title>
 									<Card.Subtitle className="mb-2 text-muted">Backend Developer</Card.Subtitle>
-									<Card.Link href="https://www.linkedin.com/in/corechirag/" target="blank">
+									<Card.Link href="https://www.linkedin.com/in/harish/" target="blank">
 										LinkedIn
 									</Card.Link>
-									<Card.Link href="https://github.com/luckyman20" target="blank">
+									<Card.Link href="https://github.com/harishmeena" target="blank">
 										Github
 									</Card.Link>
 								</Card.Body>
 							</Card>
-							<Card style={{ width: '18rem' }} className="teamCard">
-								<Card.Body>
-									<Card.Title>Rachit Gupta</Card.Title>
-									<Card.Subtitle className="mb-2 text-muted">Frontend Developer</Card.Subtitle>
-									<Card.Link href="https://www.linkedin.com/in/dotrachit/" target="blank">
-										LinkedIn
-									</Card.Link>
-									<Card.Link href="https://github.com/dotrachit" target="blank">
-										Github
-									</Card.Link>
-								</Card.Body>
-							</Card>
-							<Card style={{ width: '18rem' }} className="teamCard">
-								<Card.Body>
-									<Card.Title>Laxya Pahuja</Card.Title>
-									<Card.Subtitle className="mb-2 text-muted">Designer</Card.Subtitle>
-									<Card.Link href="https://www.linkedin.com/in/laxyapahuja/" target="blank">
-										LinkedIn
-									</Card.Link>
-									<Card.Link href="https://github.com/laxyapahuja/" target="blank">
-										Github
-									</Card.Link>
-								</Card.Body>
-							</Card>
+
+
 							<Card style={{ width: '18rem' }} className="teamCard">
 								<Card.Body>
 									<Card.Title>Hemant Gupta</Card.Title>
@@ -88,7 +64,7 @@ const About = () => {
 									<Card.Link href="https://www.linkedin.com/in/hmg/" target="blank">
 										LinkedIn
 									</Card.Link>
-									<Card.Link href="#" target="blank">
+									<Card.Link href="https://github.com/guptahemant65" target="blank">
 										Github
 									</Card.Link>
 								</Card.Body>
