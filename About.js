@@ -6,7 +6,7 @@ const About = () => {
 	return (
 		<Container fluid="md">
 			<Card style={{}} className="aboutCard">
-				
+
 				<Col>
 					<Card.Body>
 						<Card.Title>Sumry</Card.Title>
@@ -44,9 +44,10 @@ const About = () => {
 						<Card.Title>Our team</Card.Title>
 						<Row>
 							<Card style={{ width: '18rem' }} className="teamCard">
+								<Card.Img src="https://i.ibb.co/TYkG89j/harish.jpg" />
 								<Card.Body>
 									<Card.Title>Harish Meena</Card.Title>
-									<Card.Subtitle className="mb-2 text-muted">Backend Developer</Card.Subtitle>
+
 									<Card.Link href="https://www.linkedin.com/in/harish/" target="blank">
 										LinkedIn
 									</Card.Link>
@@ -56,11 +57,11 @@ const About = () => {
 								</Card.Body>
 							</Card>
 
-
 							<Card style={{ width: '18rem' }} className="teamCard">
+								<Card.Img variant="top" src="https://i.ibb.co/5Mj4xnD/hemant.jpg" />
 								<Card.Body>
 									<Card.Title>Hemant Gupta</Card.Title>
-									<Card.Subtitle className="mb-2 text-muted">Backend Developer</Card.Subtitle>
+
 									<Card.Link href="https://www.linkedin.com/in/hmg/" target="blank">
 										LinkedIn
 									</Card.Link>
