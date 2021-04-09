@@ -1,6 +1,5 @@
 import React from 'react';
 import { Container, Card, Col, Row } from 'react-bootstrap';
-import ReactPlayer from 'react-player';
 
 const About = () => {
 	return (
@@ -9,7 +8,7 @@ const About = () => {
 
 				<Col>
 					<Card.Body>
-						<Card.Title>Sumry</Card.Title>
+						<Card.Title>Saransh</Card.Title>
 						<Card.Subtitle className="mb-2 text-muted">your project manager, for you.</Card.Subtitle>
 						<Card.Text>
 							<b>
@@ -19,7 +18,7 @@ const About = () => {
 							We feel your pain too! So we thought of inventing something that can save you those
 							unproductive hours. Here we present,{' '}
 							<b>
-								Sumry - a tool that generates a report, taking into account all the project related
+								Saransh - a tool that generates a report, taking into account all the project related
 								activities done throughout the day by each developer.
 							</b>{' '}
 							Our prime motive is to empower Program Managers with a tool that brings all the work done by
@@ -51,7 +50,7 @@ const About = () => {
 									<Card.Link href="https://www.linkedin.com/in/harish/" target="blank">
 										LinkedIn
 									</Card.Link>
-									<Card.Link href="https://github.com/harishmeena" target="blank">
+									<Card.Link href="https://github.com/HarishKumarMeena" target="blank">
 										Github
 									</Card.Link>
 								</Card.Body>
