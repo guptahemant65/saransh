@@ -28,7 +28,7 @@ const AuthForm = () => {
             })
               .then((response) => {
                 if (response.status == 200) {
-                  navigate("/", {
+                  navigate("/dashboard", {
                     state: {
                       username: event.target.formUsername.value,
                       password: event.target.formPassword.value,
