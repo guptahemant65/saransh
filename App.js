@@ -3,6 +3,7 @@ import ReactDOM from "react-dom";
 import AuthForm from "./AuthForm";
 import Dashboard from "./Dashboard";
 import About from "./About";
+import Home from "./Home";
 import { Router } from "@reach/router";
 import { AppBar, Button, Toolbar, makeStyles } from "@material-ui/core";
 
@@ -12,7 +13,8 @@ const useStyles = makeStyles(() => ({
   },
   title: {
 	flexGrow: 1,
-	justifyContent: "flex-start"
+	justifyContent: "flex-start",
+  textAlign: "center"
   },
 }));
 
@@ -29,6 +31,7 @@ const App = () => {
                 src="https://user-images.githubusercontent.com/44428198/87041819-6a7c0780-c210-11ea-906e-8d2bd685d43d.png"
                 width="40"
               />
+              <p style={{ fontSize: 20, paddingTop: 13 }}>&nbsp;&nbsp;&nbsp;&nbsp;Saransh</p>
             </Button>
             <Button color="inherit" href="/about" className="appBarItem">
               About Us
@@ -41,8 +44,9 @@ const App = () => {
       </div>
       <Router>
         <AuthForm path="/login" />
-        <Dashboard path="/" />
+        <Dashboard path="/dashboard" />
         <About path="/about" />
+        <Home path="/" />
       </Router>
     </React.StrictMode>
   );
